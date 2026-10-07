@@ -1,0 +1,138 @@
+{
+  "destination": "charleszon/supply-chain-analytics-demo",
+  "required_visibility": "private",
+  "published": false,
+  "construction": "Entirely independent code and synthetic data; zero original files or Git objects copied.",
+  "snapshot": "2026-07-15",
+  "seed": 42,
+  "contents": [
+    {
+      "path": ".gitattributes",
+      "bytes": 14,
+      "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 161,
+      "sha256": "b0f95efc59ea2f94a240329606921cb54ca4afb5f23bdbdad4aa666dcccbf97f"
+    },
+    {
+      "path": ".streamlit/config.toml",
+      "bytes": 83,
+      "sha256": "cb5113e88e5653e84e856939324b5db4df7fe294f01dedcf0b5198d9a67946b9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3630,
+      "sha256": "a317018cf3e92b5f7aa6e712c31d7822158b34aeea186deeb8814ae10fc8dbf2"
+    },
+    {
+      "path": "app.py",
+      "bytes": 9261,
+      "sha256": "660d1335f191dce1039cf240cc1ac6b142eeeb9c10ad0024130fd4e24d3496df"
+    },
+    {
+      "path": "data/synthetic/costs.csv",
+      "bytes": 13627,
+      "sha256": "272ee5f047f0927b716633eeb8b3e86dc532f7692c8b0cbc335bdc6cebbbe836"
+    },
+    {
+      "path": "data/synthetic/milestones.csv",
+      "bytes": 60513,
+      "sha256": "46cebc712b8c444aa15ee4ef2afb2fb2f6a2d0649099bf25f3257aae5ac49236"
+    },
+    {
+      "path": "data/synthetic/orders.csv",
+      "bytes": 32506,
+      "sha256": "96e447cb0a78995e7edbdebd0a3c3422c04a0383210f699801aaa0c5ea74cc99"
+    },
+    {
+      "path": "data/synthetic/provenance.json",
+      "bytes": 265,
+      "sha256": "6e3ea3316ea51404bdc3cf719cdd7068f74b6367e1351c6eee99b3a62dc0b126"
+    },
+    {
+      "path": "data/synthetic/schedule.csv",
+      "bytes": 16234,
+      "sha256": "5ef565182d3e3132db27d00775bd44fba3cd82fb4533c13c4f3927f98d756fa6"
+    },
+    {
+      "path": "data/synthetic/suppliers.csv",
+      "bytes": 277,
+      "sha256": "2cc04e912184b68937e805ef7f5b53daa85841718eb2697e6e97b8d0e09a841f"
+    },
+    {
+      "path": "demo/__init__.py",
+      "bytes": 44,
+      "sha256": "12b97f3d318e2220282cbc5966075843f9477854e3996fa30f2ed0910560aacd"
+    },
+    {
+      "path": "demo/analytics.py",
+      "bytes": 3214,
+      "sha256": "1d3825ec024f12ed33bc1443debeea8c09bbbe8cc73ba309d26ab07eb99ada2f"
+    },
+    {
+      "path": "demo/pipeline.py",
+      "bytes": 7959,
+      "sha256": "666378dc51b0c8c43b164accbc13bcec0ef42276bfa1a9b949d48ea9a5ddc9c3"
+    },
+    {
+      "path": "docs/CASE_STUDY.md",
+      "bytes": 1483,
+      "sha256": "7f0f5c6cdae1ecd57884ca2530d36b1a8fa2ff9d4686376e8e8ab6b8ab191c1d"
+    },
+    {
+      "path": "docs/METRICS.md",
+      "bytes": 1779,
+      "sha256": "2f9489a3cfd31ff7ea8ba729be52c8080ab43e6764973ad072228d9637b53eec"
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "bytes": 1618,
+      "sha256": "ffb3a8c4118b26e703113883b7189551f623b6fa2618d46f0541a32e55eb73ce"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "bytes": 2208,
+      "sha256": "1106482002dd0b0940f73339910fd836d4bc2e45aabc3186af3bb84ae2080bd3"
+    },
+    {
+      "path": "publish_private.ps1",
+      "bytes": 1734,
+      "sha256": "6d88e903971bcb6ba9609c4ba712a4b468e227edd995eb4a52e38a55cc2858bb"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 155,
+      "sha256": "4b5d1f60697bc40df0a44c5b46f96fe6746b9834b6ab2d7edba199d202482f5a"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "bytes": 47,
+      "sha256": "9d5aeb73709417b0e20fdec089e6ef8c2fce4dc05757ffdac90b5a1837df37a6"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 60,
+      "sha256": "4af50bf6ffea4483d147e2a2fdc838bf568bb74850836a1147c2111775a93864"
+    },
+    {
+      "path": "scripts/scan_publication.py",
+      "bytes": 6148,
+      "sha256": "b238614d51bbc19798ac07a77d07faf6ac07b3c0f86346115b63b138dbc8a935"
+    },
+    {
+      "path": "tests/test_demo.py",
+      "bytes": 5800,
+      "sha256": "f48232839b231a0f838ffa7876fb8b5166c90b584ebedb4181384d83885985c0"
+    }
+  ],
+  "manifest_self_hash": "Excluded to avoid recursive hashing; full scan report records its final hash.",
+  "verification": {
+    "pytest": "8 tests passed, including all eight views and filtered navigation",
+    "ruff": "lint and format checks passed",
+    "synthetic_csv_recomputation": "All five CSVs byte-identical to seed-42 generation",
+    "local_http_health": "HTTP 200",
+    "secret_and_source_identifier_scan": "Separate full report supplied with delivery"
+  }
+}

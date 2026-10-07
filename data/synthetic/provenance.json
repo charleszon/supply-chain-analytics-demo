@@ -1,0 +1,13 @@
+{
+  "synthetic": true,
+  "seed": 42,
+  "as_of": "2026-07-15",
+  "source": "Independent random generation; no real records or source files",
+  "row_counts": {
+    "suppliers": 8,
+    "orders": 360,
+    "costs": 360,
+    "milestones": 1440,
+    "schedule": 360
+  }
+}

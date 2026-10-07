@@ -1,0 +1,9 @@
+supplier_id,supplier,monthly_capacity,lead_time_days
+SUP001,Supplier 01,22000,42
+SUP002,Supplier 02,12000,52
+SUP003,Supplier 03,15000,49
+SUP004,Supplier 04,14000,41
+SUP005,Supplier 05,22000,69
+SUP006,Supplier 06,13000,62
+SUP007,Supplier 07,12000,36
+SUP008,Supplier 08,13000,48

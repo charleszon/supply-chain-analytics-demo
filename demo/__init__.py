@@ -1,0 +1,1 @@
+"""Synthetic supply chain demonstration."""
